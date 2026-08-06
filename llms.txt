@@ -1,0 +1,7 @@
+# Mintlify Starter Kit
+
+> Documentation for the Agent Server Budgets feature: capping agent spend by tokens, cost, or steps, and controlling what happens when a run crosses the line.
+
+## Agent Server
+
+- [Budgets](/budgets): Cap agent spend by tokens, cost, or steps, and control what happens when a run crosses the line

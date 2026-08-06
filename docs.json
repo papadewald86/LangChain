@@ -1,41 +1,52 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "aspen",
+  "name": "LangChain Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#161F34",
+    "light": "#7FC8FF",
+    "dark": "#006DDD"
   },
   "favicon": "/favicon.svg",
+  "icons": {
+    "library": "tabler"
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#030710"
+    }
+  },
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "codeblocks": {
+      "theme": {
+        "light": "catppuccin-latte",
+        "dark": "catppuccin-mocha"
+      }
+    }
+  },
+  "banner": {
+    "content": "Interrupt is coming to NYC and London this fall. Join the builders, engineers, and teams shaping what's next for agents. [Get your tickets →](https://interrupt.langchain.com/)",
+    "dismissible": true
+  },
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Agent Server",
         "pages": [
-          "index",
-          "quickstart"
+          "budgets"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/brand/langchain-docs-dark-blue.png",
+    "dark": "/images/brand/langchain-docs-light-blue.png"
   },
   "navbar": {
     "links": [
@@ -46,27 +57,77 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Try LangSmith",
+      "href": "https://smith.langchain.com/"
     }
   },
   "contextual": {
     "options": [
       "copy",
       "view",
+      {
+        "title": "llms.txt",
+        "description": "Open llms.txt for this site",
+        "icon": "file",
+        "href": "/llms.txt"
+      },
       "chatgpt",
       "claude",
-      "perplexity",
       "mcp",
       "cursor",
       "vscode"
     ]
   },
   "footer": {
+    "links": [
+      {
+        "header": "Resources",
+        "items": [
+          {
+            "label": "Forum",
+            "href": "https://forum.langchain.com/"
+          },
+          {
+            "label": "Changelog",
+            "href": "https://changelog.langchain.com/"
+          },
+          {
+            "label": "LangChain Academy",
+            "href": "https://academy.langchain.com/"
+          },
+          {
+            "label": "Contact Sales",
+            "href": "https://www.langchain.com/contact-sales"
+          }
+        ]
+      },
+      {
+        "header": "Company",
+        "items": [
+          {
+            "label": "Home",
+            "href": "https://langchain.com/"
+          },
+          {
+            "label": "Trust Center",
+            "href": "https://trust.langchain.com/"
+          },
+          {
+            "label": "Careers",
+            "href": "https://langchain.com/careers"
+          },
+          {
+            "label": "Blog",
+            "href": "https://blog.langchain.com/"
+          }
+        ]
+      }
+    ],
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/langchain-ai",
+      "x": "https://x.com/LangChain",
+      "linkedin": "https://www.linkedin.com/company/langchain/",
+      "youtube": "https://www.youtube.com/@LangChain"
     }
   }
 }
